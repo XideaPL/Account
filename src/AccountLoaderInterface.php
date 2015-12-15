@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Account\Loader;
+namespace Xidea\Account;
 
-use Xidea\Component\Base\Loader\ModelLoaderInterface;
+use Xidea\Base\Model\LoaderInterface as ModelLoaderInterface;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
@@ -21,7 +21,7 @@ interface AccountLoaderInterface extends ModelLoaderInterface
      * 
      * @param int $id
      * 
-     * @return \Xidea\Component\Account\Model\AccountInterface
+     * @return \Xidea\Account\AccountInterface
      */
     function load($id);
     

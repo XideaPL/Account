@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Account;
+namespace Xidea\Account;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-abstract class AccountEvents
+abstract class Events
 {
     /**
      * The PRE_SAVE event occurs when the account is saved.

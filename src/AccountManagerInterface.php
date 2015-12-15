@@ -7,9 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Account\Manager;
-
-use Xidea\Component\Account\Model\AccountInterface;
+namespace Xidea\Account;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>

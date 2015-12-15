@@ -1,7 +1,7 @@
 {
     "name": "xideapl/account",
     "type": "library",
-    "description": "Xidea Account Component",
+    "description": "Xidea Account",
     "keywords": [],
     "homepage": "http://xidea.pl",
     "license": "MIT",
@@ -18,10 +18,8 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-0": { "Xidea\\Component\\Account": "" }
+        "psr-4": { "Xidea\\Account\\": "src/" }
     },
-    "target-dir": "Xidea/Component/Account",
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"

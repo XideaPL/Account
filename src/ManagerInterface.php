@@ -12,7 +12,7 @@ namespace Xidea\Account;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface AccountManagerInterface
+interface ManagerInterface
 {
     /**
      * Saves a account.

@@ -14,7 +14,7 @@ use Xidea\Base\Model\LoaderInterface as ModelLoaderInterface;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface AccountLoaderInterface extends ModelLoaderInterface
+interface LoaderInterface extends ModelLoaderInterface
 {
     /**
      * Returns a manufacturer by id.
